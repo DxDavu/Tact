@@ -1,0 +1,41 @@
+/* 
+font-family: 'Jura', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif; 
+
+Colors : #142850 , #27496d, #00909e, #dae1e7, #e43f5a, #1f4068, #1b1b2f, #e43f5a
+
+*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-image: linear-gradient(to right, rgba(79, 116, 159, 0.911), rgba(7, 40, 78, 0.863)) ,
+                        url("../img/data2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 95vh;     
+   
+       
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Jura', sans-serif;
+}
+
+.heading {
+    padding-top: 70px;
+    position: relative;
+    height: 50vh;
+}
+
+.main-heading1{
+    color: #ffffff;
+    position: absolute;
+    left: 80%;
+    top: 50%;
+}
